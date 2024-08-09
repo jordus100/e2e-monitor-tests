@@ -1,0 +1,7 @@
+{
+  "type": "module",
+  "dependencies": {
+    "@slack/web-api": "^7.3.2",
+    "cypress": "^13.13.2"
+  }
+}
