@@ -1,3 +1,4 @@
-./idea/
+.idea/
 .env
-./src/node_modules/
+src/node_modules/
+src/test-results.xml
