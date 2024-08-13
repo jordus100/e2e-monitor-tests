@@ -7,7 +7,7 @@ describe('Test Google social login on smartdust.me', () => {
         // prevents Cypress from failing the test after a thrown exception
         return false
       })
-      cy.get('input[type="email"]').type('jordan@smartdust.me')
+      cy.get('input[type="email"]').type(Cypress.env('GOOGLE_LOGIN'))
       cy.contains('Next').click()
       cy.get('input[type="password"]').type(Cypress.env('GOOGLE_PASSWORD'))
       cy.contains('Next').click()

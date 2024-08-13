@@ -7,6 +7,7 @@ module.exports = defineConfig({
     },
     experimentalModifyObstructiveThirdPartyCode: true,
     env: {
+      GOOGLE_LOGIN: process.env.GOOGLE_LOGIN,
       GOOGLE_PASSWORD: process.env.GOOGLE_PASSWORD,
     }
   },

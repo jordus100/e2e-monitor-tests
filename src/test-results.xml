@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="Mocha Tests" time="31.010" tests="1" failures="0">
-  <testsuite name="Root Suite" timestamp="2024-08-08T10:52:35" tests="0" file="cypress/e2e/wordpress-google-login.cy.js" time="0.000" failures="0">
-  </testsuite>
-  <testsuite name="Test Google social login on smartdust.me" timestamp="2024-08-08T10:52:35" tests="1" time="30.982" failures="0">
-    <testcase name="Test Google social login on smartdust.me opens Wordpress login page" time="26.072" classname="opens Wordpress login page">
-    </testcase>
-  </testsuite>
-</testsuites>
