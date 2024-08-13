@@ -5,9 +5,10 @@ COPY crontab /var/spool/cron/crontabs/root
 RUN chmod 600 /var/spool/cron/crontabs/root
 RUN chown root:crontab /var/spool/cron/crontabs/root
 # copy whole src folder to /
-COPY src /src
+COPY src /e2e-tests
+COPY .env /e2e-tests
 # set working directory
-WORKDIR /src
+WORKDIR /e2e-tests
 # install dependencies
 RUN npm install
 ENTRYPOINT service cron restart && sleep infinity

@@ -1,1 +1,1 @@
-0 */6 * * * cd /src && /usr/local/bin/node --env-file=.env test-runner.js >> /var/log/e2e-test.log 2>&1
+0 */6 * * * cd /e2e-tests && /usr/local/bin/node --env-file=.env test-runner.js > /proc/1/fd/1 2> /proc/1/fd/2
