@@ -17,6 +17,6 @@ describe('Test Google social login on smartdust.me', () => {
     // check if the login was successful
     cy.visit('https://smartdust.me/shop/my-account/')
     // check if contains the user's name
-    cy.contains('Jordan Parviainen')
+    cy.contains(Cypress.env('WP_USERNAME'))
   })
 })
