@@ -21,7 +21,7 @@ docker build -t e2e-tests .
 ```
 - To run the tests, execute the following command:
 ```
-docker run e2e-tests
+docker run --restart=always -d e2e-tests
 ```
 The container should keep running in the background and execute the tests according to the schedule in the `crontab` file.
 Logs from the tests will be displayed in the Docker container logs.
