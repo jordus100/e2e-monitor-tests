@@ -9,10 +9,11 @@ End-to-end tests using the Cypress framework to be run automatically in Docker a
 - Enter the repository folder
 - Create a .env file with the following content:
 ```
-GOOGLE_LOGIN=your_google_email
-GOOGLE_PASSWORD=your_google_password
-SLACK_TOKEN=your_slack_token
-SLACK_CHANNEL_ID=your_slack_channel_id
+GOOGLE_LOGIN="google_email"
+GOOGLE_PASSWORD="google_password"
+WP_USERNAME="username_on_account_page"
+SLACK_TOKEN="your_slack_token"
+SLACK_CHANNEL_ID="your_slack_channel_id"
 ```
 - Run the following command:
 ```
